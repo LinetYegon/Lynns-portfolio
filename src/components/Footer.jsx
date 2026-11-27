@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from './Icons'
+import { Github, Mail } from './Icons'
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/lynnjepchirchir"
+            href="https://github.com/linetyegon"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -17,17 +17,9 @@ export default function Footer() {
           >
             <Github className="w-4 h-4" />
           </a>
+          
           <a
-            href="https://linkedin.com/in/lynnjepchirchir"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="LinkedIn"
-            className="p-2 rounded-md text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
-          >
-            <Linkedin className="w-4 h-4" />
-          </a>
-          <a
-            href="mailto:lynn@example.com"
+            href="mailto:lynnkish35@gmail.com"
             aria-label="Email"
             className="p-2 rounded-md text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
           >
